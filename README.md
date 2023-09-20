@@ -29,12 +29,12 @@ Also, determine the optimal value of lambda for ridge and lasso regression.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- After compairing both the model we can see that the below Features are best explaining the DataS
-#YearBuilt_Old        :  Original construction date older or not
-#Neighborhood_Gilbert : Physical locations within Ames city limits (Gilbert)
-#HalfBath             : Half baths above grade
-#MiscVal              :  $Value of miscellaneous feature
-#Neighborhood_IDOTRR  : Physical locations within Ames city limits (Iowa DOT and Rail Road)
+- After compairing both the model we can see that the below Features are best explaining the Data
+- #YearBuilt_Old        :  Original construction date older or not
+- #Neighborhood_Gilbert : Physical locations within Ames city limits (Gilbert)
+- #HalfBath             : Half baths above grade
+- #MiscVal              :  $Value of miscellaneous feature
+- #Neighborhood_IDOTRR  : Physical locations within Ames city limits (Iowa DOT and Rail Road)
 
 
 - Best alpha value for Lasso : {'alpha': 0.001}
@@ -45,18 +45,18 @@ Also, determine the optimal value of lambda for ridge and lasso regression.
 
 ## Technologies Used
 - Python libraries as follows:
-sys
-os
-warnings
-pandas
-numpy
-matplotlib.pyplot
-seaborn sns
-sklearn.preprocessing, StandardScaler,MinMaxScaler
-sklearn.model_selection, train_test_split,GridSearchCV,KFold,cross_val_score
-sklearn.linear_model, LinearRegression,Ridge,Lasso
-sklearn.feature_selection, RFE
-sklearn.metrics, r2_score
+- sys
+- os
+- warnings
+- pandas
+- numpy
+- matplotlib.pyplot
+- seaborn sns
+- sklearn.preprocessing, StandardScaler,MinMaxScaler
+- sklearn.model_selection, train_test_split,GridSearchCV,KFold,cross_val_score
+- sklearn.linear_model, LinearRegression,Ridge,Lasso
+- sklearn.feature_selection, RFE
+- sklearn.metrics, r2_score
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
